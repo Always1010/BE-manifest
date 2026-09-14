@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote
+      name="github"
+      alias="origin"
+      fetch="https://github.com/Always1010" />
+
+  <default
+      remote="github"
+      revision="refs/heads/main"
+      sync-j="6"
+      sync-c="true" />
+
+  <project
+      name="BilibiliAudioPlayer"
+      path="bilibiliMp3Player" />
+
+  <project
+      name="BilibiliToolBox"
+      path="BiliBiliTool" />
+
+  <project
+      name="break-reminder-extension"
+      path="BreakReminder" />
+
+  <project
+      name="CaptionRoll"
+      path="CaptionRoll" />
+
+  <project
+      name="NotesAnywhere"
+      path="NotesAnywhere" />
+
+  <project
+      name="AutoScrollPDF"
+      path="test_for_pdf"
+      revision="refs/heads/master" />
+</manifest>
