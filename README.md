@@ -10,7 +10,7 @@
 | --- | --- | --- |
 | `AutoScrollPDF` | `Always1010/AutoScrollPDF` | `master` |
 | `BilibiliAudioPlayer` | `Always1010/BilibiliAudioPlayer` | `main` |
-| `BiliBiliToolBox` | `Always1010/BilibiliToolBox` | `main` |
+| `BilibiliToolBox` | `Always1010/BilibiliToolBox` | `main` |
 | `BreakReminder` | `Always1010/BreakReminder` | `main` |
 | `CaptionRoll` | `Always1010/CaptionRoll` | `main` |
 | `NotesAnywhere` | `Always1010/NotesAnywhere` | `main` |
