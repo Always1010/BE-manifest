@@ -1,6 +1,6 @@
 # BE Manifest
 
-这个仓库用于管理 `D:\WRK\BE` 工作区中的多个独立 Git 仓库。
+这个仓库用于管理同一工作区中的多个独立 Git 仓库。
 
 `default.xml` 是 Google Repo 工具使用的 Manifest。它只记录仓库地址、本地目录和跟踪分支，不包含各项目的源码，也不会替代各项目自身的 Git 仓库。
 
@@ -8,12 +8,12 @@
 
 | 本地目录 | GitHub 仓库 | 跟踪分支 |
 | --- | --- | --- |
-| `bilibiliMp3Player` | `Always1010/BilibiliAudioPlayer` | `main` |
-| `BiliBiliTool` | `Always1010/BilibiliToolBox` | `main` |
-| `BreakReminder` | `Always1010/break-reminder-extension` | `main` |
+| `AutoScrollPDF` | `Always1010/AutoScrollPDF` | `master` |
+| `BilibiliAudioPlayer` | `Always1010/BilibiliAudioPlayer` | `main` |
+| `BiliBiliToolBox` | `Always1010/BilibiliToolBox` | `main` |
+| `BreakReminder` | `Always1010/BreakReminder` | `main` |
 | `CaptionRoll` | `Always1010/CaptionRoll` | `main` |
 | `NotesAnywhere` | `Always1010/NotesAnywhere` | `main` |
-| `test_for_pdf` | `Always1010/AutoScrollPDF` | `master` |
 
 ## 将本仓库上传到 GitHub
 
@@ -28,7 +28,7 @@ git push -u origin main
 
 ## 将来使用 Repo 初始化工作区
 
-请在一个新的空目录中运行，不要直接在已有的 `D:\WRK\BE` 目录中测试：
+请在一个新的空目录中运行，不要直接在已经包含这些项目的工作区中测试：
 
 ```bash
 repo init -u https://github.com/Always1010/BE-manifest.git
@@ -54,4 +54,4 @@ Manifest 中不要保存密码、访问令牌、私钥或 `.env` 内容。
 
 ## 当前状态记录
 
-创建 Manifest 时的本地检查结果保存在 [`AUDIT-2026-09-14.md`](AUDIT-2026-09-14.md)。其中有两个仓库包含尚未推送到 GitHub 的本地提交；`default.xml` 采用分支跟踪模式，因此没有引用这些暂时无法从远端取得的提交。
+最近一次本地与 GitHub 检查结果保存在 [`AUDIT-2026-09-14.md`](AUDIT-2026-09-14.md)。`default.xml` 采用分支跟踪模式，不会锁定到检查时的本地提交。

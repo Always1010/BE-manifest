@@ -12,15 +12,20 @@
       sync-c="true" />
 
   <project
+      name="AutoScrollPDF"
+      path="AutoScrollPDF"
+      revision="refs/heads/master" />
+
+  <project
       name="BilibiliAudioPlayer"
-      path="bilibiliMp3Player" />
+      path="BilibiliAudioPlayer" />
 
   <project
       name="BilibiliToolBox"
-      path="BiliBiliTool" />
+      path="BiliBiliToolBox" />
 
   <project
-      name="break-reminder-extension"
+      name="BreakReminder"
       path="BreakReminder" />
 
   <project
@@ -31,8 +36,4 @@
       name="NotesAnywhere"
       path="NotesAnywhere" />
 
-  <project
-      name="AutoScrollPDF"
-      path="test_for_pdf"
-      revision="refs/heads/master" />
 </manifest>
